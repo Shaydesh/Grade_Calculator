@@ -1,0 +1,13 @@
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\bin\Debug\Deshner_FinalProject.exe.config
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\bin\Debug\Database51.accdb
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\bin\Debug\Deshner_FinalProject.exe
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\bin\Debug\Deshner_FinalProject.pdb
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\bin\Debug\Deshner_FinalProject.xml
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.Resources.resources
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.vbproj.GenerateResource.Cache
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.exe
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.xml
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.pdb
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.ScoreForm.resources
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.Form3.resources
+C:\Users\jessieandshay\Desktop\Visual Basic Class\GradeBook\Deshner_FinalProject\obj\Debug\Deshner_FinalProject.frmMain.resources
