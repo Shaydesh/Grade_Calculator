@@ -81,17 +81,17 @@ Partial Class frmMain
         Me.btnPrint = New System.Windows.Forms.Button()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
-        Me.Database51DataSet = New Deshner_FinalProject.Database51DataSet()
+        Me.Database51DataSet = New Deshner_FinalProject.My.MySettings()
         Me.GradeBookBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.GradeBookTableAdapter = New Deshner_FinalProject.Database51DataSetTableAdapters.GradeBookTableAdapter()
-        Me.TableAdapterManager = New Deshner_FinalProject.Database51DataSetTableAdapters.TableAdapterManager()
+
+
         Me.btnExit = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
-        CType(Me.Database51DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+
         CType(Me.GradeBookBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -733,23 +733,21 @@ Partial Class frmMain
         '
         'Database51DataSet
         '
-        Me.Database51DataSet.DataSetName = "Database51DataSet"
-        Me.Database51DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+
+
         '
         'GradeBookBindingSource
         '
-        Me.GradeBookBindingSource.DataMember = "GradeBook"
-        Me.GradeBookBindingSource.DataSource = Me.Database51DataSet
+        
         '
         'GradeBookTableAdapter
         '
-        Me.GradeBookTableAdapter.ClearBeforeFill = True
+
         '
         'TableAdapterManager
         '
-        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
-        Me.TableAdapterManager.GradeBookTableAdapter = Me.GradeBookTableAdapter
-        Me.TableAdapterManager.UpdateOrder = Deshner_FinalProject.Database51DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        
+
         '
         'btnExit
         '
@@ -781,16 +779,16 @@ Partial Class frmMain
         Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
-        CType(Me.Database51DataSet, System.ComponentModel.ISupportInitialize).EndInit()
+
         CType(Me.GradeBookBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Database51DataSet As Deshner_FinalProject.Database51DataSet
+    Friend WithEvents Database51DataSet As Deshner_FinalProject.My.MySettings
     Friend WithEvents GradeBookBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents GradeBookTableAdapter As Deshner_FinalProject.Database51DataSetTableAdapters.GradeBookTableAdapter
-    Friend WithEvents TableAdapterManager As Deshner_FinalProject.Database51DataSetTableAdapters.TableAdapterManager
+
+
     Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents lblWeek5Assignment As System.Windows.Forms.Label
     Friend WithEvents lblWeek4Assignment As System.Windows.Forms.Label

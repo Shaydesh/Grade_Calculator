@@ -3,18 +3,7 @@
 ' Programmer:   Shay Deshner on 6 / 26 / 2014
 Public Class frmMain
 
-    Private Sub GradeBookBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs)
-        Me.Validate()
-        Me.GradeBookBindingSource.EndEdit()
-        Me.TableAdapterManager.UpdateAll(Me.Database51DataSet)
-
-    End Sub
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'Database51DataSet.GradeBook' table. You can move, or remove it, as needed.
-        Me.GradeBookTableAdapter.Fill(Me.Database51DataSet.GradeBook)
-
-    End Sub
+    
     Private dblForumScore As Double
     Private dblAssignmentScore As Double
 
