@@ -1,0 +1,2 @@
+This is one of my first projects.  It is a Windows application written in VB.NET.  The Grade Calculator takes as input grade percentages for three different grade catagories.  It then, out puts them on to a gride to be viewed in order.  When the calculate grade button is pressed a final average is calculated for each grade catagory, and a weighted average is calculated using the three grade catagories.  A final grade score and a letter grade score is then presented.
+
